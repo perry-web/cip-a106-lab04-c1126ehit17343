@@ -1,0 +1,17 @@
+FLARE-VM 10/08/2026 05:54:30
+PS C:\WINDOWS\system32 > Get-Content "$ev\24_dump_validation.txt"
+First 16 bytes: 4D 44 4D 50 93 A7 F4 A0 0F 00 00 00 20 00 00 00  ASCII: MDMP
+This is a third-party compiled AutoIt script   ascii offset:    805858   utf16 offset:   2840286
+AU3!EA06                                       ascii offset:    904246   utf16 offset:        -1
+Mozilla/4.08                                   ascii offset:        -1   utf16 offset:        -1
+Charon                                         ascii offset:        -1   utf16 offset:        -1
+Inferno                                        ascii offset:        -1   utf16 offset:        -1
+fre.php                                        ascii offset:        -1   utf16 offset:        -1
+Content-Key                                    ascii offset:        -1   utf16 offset:        -1
+Original file DOS header and stub (128 bytes) found in dump at offsets: 54382
+
+FLARE-VM 10/08/2026 05:54:30
+PS C:\WINDOWS\system32 > Get-FileHash "$ev\24_dump_validation.txt" -Algorithm SHA256
+SHA256  D04E10B488B7F334ECB2C20C2EACE70E1202876FF5E1F5BC2ED26195014BD421  C:\Labs\CIP-A106-Lab04\eviden...
+
+(Offset -1 means the pattern was not found. Offsets are byte positions in run3_blocked.dmp. Rebuilt from the console text; the VM original has the hash shown.)

@@ -1,0 +1,14 @@
+PS > Get-ChildItem $env:USERPROFILE,$env:ProgramData,"C:\Users\Public","C:\Windows\Temp" -Recurse -File -Force -Include *.vbs,*.url,*.lnk,*.js,*.bat,*.cmd,*.ps1,*.exe,*.dll,*.tmp,*.au3,*.dat | Where-Object LastWriteTime -gt (Get-Date "2026-10-08 05:00:00")
+
+FullName
+--------
+C:\Users\cybersky\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat
+C:\Users\cybersky\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AC\Temp\1a07b68b-c481-4d15-aca3-f...
+C:\Users\cybersky\AppData\Roaming\Microsoft\Windows\Recent\sample3.bin.lnk
+C:\Users\cybersky\AppData\Roaming\Microsoft\Windows\Recent\work.lnk
+
+(26_after_run3_task_files.txt was not created: the System32\Tasks query returned no files newer than 05:00)
+
+Get-FileHash result (console, 05:25:55):
+772088FB4D38AD26805F60784635622F58C92A0248779B7D87BD4BCCB67021D7  25_indicator_counts.txt
+47F745757DB87941F21333647658417581731F69E364483FA612DA77B07B4FB2  26_after_run3_new_files.txt

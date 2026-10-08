@@ -1,0 +1,13 @@
+FLARE-VM 10/08/2026 05:27:38
+PS C:\WINDOWS\system32 > $lines = [IO.File]::ReadAllLines("$lab\exe2aut_out\script.au3")
+PS C:\WINDOWS\system32 > $r = for ($i=0; $i -lt $lines.Count; $i++) { if ($lines[$i] -match 'Startup|CallWindowPro[cut off on screen]rnetShortcut|WScript') { "{0,5}: {1}" -f ($i+1),$lines[$i].Substring(0,[Math]::Min(170,$lines[$i].Length)) } }
+PS C:\WINDOWS\system32 > $r | Tee-Object "$ev\27_script_context.txt"
+  437: Func LEQMOPUPON ( $FILE , $STARTUP , $RES , $RUN = "True" )
+  533:          If $STARTUP And ISNOTFZHOIQADYO ( ) = False Then
+  945:  Global $AMHUQVXXIQPKPFLYFZ = "CallWindowProc"
+ 1696:  Global $HFHAZZFTQAJIBGRNORS = "CallWindowProcW"
+ 3186:  Global $MBREELFG = "GdiplusStartup"
+PS C:\WINDOWS\system32 > Get-FileHash "$ev\27_*" -Algorithm SHA256 | Format-List Hash,Path
+Hash : 319EEB44744EF92F92A38485B98917D7EFA2E2435A8AC647C26F572110A7A702
+Path : C:\Labs\CIP-A106-Lab04\evidence\27_script_context.txt
+(Transcribed from the VM screenshot E53; the middle of the -match pattern is cut off on screen. Three lines contain the word Startup: 437, 533 and the GdiplusStartup variable at 3186.)

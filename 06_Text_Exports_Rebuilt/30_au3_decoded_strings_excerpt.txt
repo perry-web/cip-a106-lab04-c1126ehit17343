@@ -1,0 +1,22 @@
+FLARE-VM 10/07/2026 23:45:17
+PS C:\WINDOWS\system32 > $lab = "C:\Labs\CIP-A106-Lab04"; $ev = "$lab\evidence"; $sc = "$lab\exe2aut_out\script.au3"
+FLARE-VM 10/07/2026 23:45:19
+... (hex-literal count and length table, see the VM transcript) ...
+PS C:\WINDOWS\system32 > $m | ForEach-Object { $h=$_.Groups[2].Value; if ($h.Length % 2 -eq 0) { $b = for($i=0;$i -lt $h.Length;$i+=2){[Convert]::ToByte($h.Substring($i,2),16)}; if (-not ($b | Where-Object { $_ -lt 32 -or $_ -gt 126 })) { [Text.Encoding]::ASCII.GetString($b) } } } | Sort-Object -Unique | Tee-Object "$ev\30_au3_decoded_strings.txt" | Select-Object -First 80
+"[InternetShortcut]" & @CR & "URL=file:///" & StringReplace($hpudqgyrglybjztszujdupnyzjggzoyrledakhmgmngedexblxlu, "\", "/")
+"Set WshShell = WScript.CreateObject(" & Chr(34) & "WScript.Shell" & Chr(34) & ")" & @CRLF & "WScript.Sleep(" & Round(Random(5000, 15000)) & ")" & @CRLF & "WshShell.Run " & Chr(34) & Chr(34) & Chr(34) & $orqldofxceehqoekmzvzpvztenerxkzsacumdho & Chr(34) & Chr(34) & Chr(34)
+$aagbrrpusetqgmijhtlv & "FFFF4E744372C78538FCFFFF65617465C7853CFCFFFF4D75746166C78540FCFFFF6E7488"
+$aaimblpftybmllkrzjb & "C78554FDFFFF43727970C78558FDFFFF74446563C7855CFDFFFF72797074888560FDFFFF"
+$afqiwxhbpqvgmqjanjpbumxzy & "C78514FCFFFF43727970C78518FCFFFF74446573C7851CFCFFFF74726F79C78520FCFFFF"
+$aibrhlgprwbpuoyosluscjlnbchc & "BCEEFFFFE88CEBFFFF89450C8D85DCF6FFFFE87EEBFFFF89451485C0750E8D85ACEAFFFF"
+$ampprdjio & "7D2981EC780100006A5E598BFCFF750C8D8424040300008DB4248C01000050F3A5E8CFFC"
+$aqcvkvefl & "280345F8898540FCFFFF8D8590FBFFFF50FF75ECFF95600100005785C00F8831FFFFFFFF"
+$ascikbidnjxeatwjmwyetkibgqnpdpmoeflzel = False
+$asnzapvlzadkpbvs & "C78574FBFFFF436F4372C78578FBFFFF65617465C7857CFBFFFF496E7374C78580FBFFFF"
+$avonnjn & "FF7357888592FCFFFFC78514FDFFFF52746C5AC78518FDFFFF65726F4DC7851CFDFFFF65"
+$baewlspkneiucpinovcxaezpusywp & "8D8594FDFFFF508D85DCF6FFFF50FFD78D8510FEFFFF83C40C50FFD65940508D8510FEFF"
+$bappvblh & "FF72656E74C785FCF8FFFF55736572C78500F9FFFF4B657950C78504F9FFFF61746800C7"
+$bclbkflc & "8550FDFFFFC745BC6B65726EC745C0656C33328845C88845A8888580FDFFFF64A1300000"
+... (remaining lines of the 80 shown are similar hex fragments)
+FLARE-VM 10/07/2026 23:45:26
+PS C:\WINDOWS\system32 >

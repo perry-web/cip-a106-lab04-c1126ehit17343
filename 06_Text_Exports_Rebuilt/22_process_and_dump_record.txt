@@ -1,0 +1,18 @@
+Values recorded for the run 3 process and the memory artefact. Rebuilt from console output noted during the lab;
+the original console text is in the VM evidence folder (00_transcript.txt).
+
+Process
+  Name               sample3.bin
+  ProcessId          3784
+  Path               C:\Labs\CIP-A106-Lab04\work\sample3.bin
+  Created            2026-10-08 05:12:12
+  Parent ProcessId   3092 (x32dbg.exe, C:\Tools\x64dbg\release\x32\x32dbg.exe)
+
+Memory artefact
+  File               C:\Labs\CIP-A106-Lab04\memory\run3_blocked.dmp
+  Written            2026-10-08 05:21:30
+  Size               97,956,974 bytes
+  SHA-256            3DFEF5111364B61EC8345DBC835964E1A88216D335B2114C7EBA026381EAD5E5
+  Tool               System Informer 3.2.25113.1114, Create dump file (full dump)
+  Validation         evidence\24_dump_validation.txt, SHA-256 D04E10B488B7F334ECB2C20C2EACE70E1202876FF5E1F5BC2ED26195014BD421
+  Note               Format-Hex -Count is not supported in Windows PowerShell 5.1; bytes were read with [IO.File]::ReadAllBytes

@@ -1,0 +1,17 @@
+FLARE-VM 10/08/2026 00:45:09
+PS > Get-ChildItem $env:USERPROFILE,$env:ProgramData,"C:\Users\Public","C:\Windows\Temp" -Recurse -File -Force
+     -Include *.vbs,*.url,*.lnk,*.js,*.bat,*.cmd,*.ps1,*.exe,*.dll,*.tmp,*.au3,*.dat
+     | Where-Object LastWriteTime -gt (Get-Date "2026-10-08 00:19:00") | Sort-Object LastWriteTime
+
+FullName                                                                         Length
+--------                                                                         ------
+C:\Users\cybersky\AppData\Roaming\Microsoft\Windows\Recent\sample3.bin.lnk          908
+C:\Users\cybersky\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012026100820261009\container.dat   0
+C:\Users\cybersky\AppData\Roaming\Microsoft\Windows\Recent\work.lnk                  718
+C:\Users\cybersky\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat      14680064
+
+FLARE-VM 10/08/2026 00:47:36  Run keys saved to 21_after1_run_keys.txt
+FLARE-VM 10/08/2026 00:48:08  Scheduled tasks saved to 21_after1_tasks.txt
+Compare-Object on run_keys : no differences
+Compare-Object on tasks    : printed the whole task list (column wrapping made the text differ); judged inconclusive
+(LastWriteTime column cut off in the console paste; the lines above are rebuilt from the pasted text)

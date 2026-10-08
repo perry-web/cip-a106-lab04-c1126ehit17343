@@ -1,0 +1,50 @@
+Derived by the analyst from the decoded hex literals in the paste (first 80 lines only).
+The 4-byte ASCII fragments are read in order out of mov dword ptr [ebp-X],imm32 patterns
+(opcode C7 85). The last fragment of a name can be cut by the line length, so the names
+are reconstructions, not tool output. Nothing was disassembled or executed.
+
+FFFF4E744372C785...  NtCr | eate | Mutaf
+C78554FDFFFF4372...  Cryp | tDec | rypt
+C78514FCFFFF4372...  Cryp | tDes | troy
+C78574FBFFFF436F...  CoCr | eate | Inst
+FF7357888592FCFF...  RtlZ | eroM
+FF72656E74C785FC...  rent | User | KeyP | ath
+8550FDFFFFC745BC...  kern | el32
+6F6164C745B04C69...  oad | Libr | aryA | GetP
+C745F070693332C7...  pi32 | .dll | lstr | len
+74696F66C78520FA...  tiof | LdrG | etPr
+C7858CFBFFFF7444...  tDes | troy | Hash
+8001000085C0790C...  F4u
+458C7763736366C7...  wcscf | memsf
+856CF9FFFF6E7361...  nsac | tion | ZwRo
+4B657900C78584FA...  Key | Cryp | tRel | ease
+C785B8FAFFFF7254...  rThr | ead | NtOp
+FFFF61746550C785...  ateP | rocef
+6C735C75C78594FE...  ls\u | ser3 | 2.dlf
+B0FBFFFF4E744465...  NtDe | layE | xecu
+656E5072C78554FB...  enPr | oces | sTokf
+FBFFFFC785ACF9FF...  NtAd | just | Priv
+C78584FCFFFF4372...  Crea | tePr | ocesf
+F9FFFF696C6567C7...  ileg | esTo | ken | Rtl
+F9FFFF45787061C7...  Expa | ndEn | viro | nme
+FFFF6579888562FC...  memcf | Cryp
+57888538FFFFFFC7...  NtPr | otec | tVi
+4B6E6FC78598FDFF...  Kno | wnDl | ls32 | \ker
+32C78504FFFFFF2E...  .dll | user | 32.df
+FF7300C78504FDFF...  GetS | yste | mInff
+750C8BF8F3A55F5E...  SVW
+FFFF74655769C785...  teWi | ndow | ExW | Regi
+7233322EC78524FE...  r32. | dll | \Kno | wnDl
+45C4774F6653C745...  wOfS | ectif
+7CFAFFFF63657373...  cess | ZwCr | eate
+6366C74598707988...  NtCr | eate
+4765744DC78514FB...  GetM | odul | eFil | eNamf
+D4FF958401000085...  PWWW
+53565781EC780100...  SVW
+6EC78528FCFFFF69...  itia | lizef
+4F70C785E8FCFFFF...  enSe | ctiof
+859CF9FFFF746556...  teVi | rtua | lMem
+6164888582FCFFFF...  NtSe | tCon
+DAFEFFFFC78534FD...  NtSe | tVal | ueKef
+6D6F7266C78520FD...  morf | NtTe | rmin
+8510FAFFFF6C6C62...  llba | ckTr | ansa
